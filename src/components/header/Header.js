@@ -1,8 +1,9 @@
 import {NavLink, Routes, Route} from 'react-router-dom'
-import Aboutme from '../aboutme/Aboutme'
 
+import Aboutme from '../aboutme/Aboutme'
 import Contact from '../contact/Contact'
 import Work from '../work/Work'
+import Resume from '../resume/Resume'
 
 
 export default function Header(){
@@ -36,6 +37,7 @@ export default function Header(){
                     <Route path='/'element={<Aboutme/>}/>
                     <Route path='/work'element={<Work/>}/>
                     <Route path='/contact'element={<Contact/>}/>
+                    <Route path='/resume'element={<Resume/>}/>
                 </Routes> 
             </main>
         </div>
