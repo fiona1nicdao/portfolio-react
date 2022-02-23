@@ -1,4 +1,5 @@
 import '../../assets/css/App.css'
+import mepic from '../../assets/images/me.png'
 export default function Aboutme(){
     return(
         <div>
@@ -18,8 +19,9 @@ export default function Aboutme(){
                         <p className="textme">JavaScript.</p>
                     </div> 
                 </div>
-                {/* need to figure out how to add pictures!! */}
-                <div className="pictureme"><img className="me"src="../../assets/imgages/me.png"/></div>        
+                <div className='pictureme'>
+                    <img className="me" src={mepic}/>
+                </div>
             </div>
         </section>
         </div>
