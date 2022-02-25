@@ -1,10 +1,10 @@
 export default function Footer(){
     return(
         <footer id="Contact-Me">
-        <h3 className="Me">
+            <h3 className="Me">
               Contact Me
-          </h3>
-          <ul className="contact">
+            </h3>
+            <ul className="contact">
               <li>
                   <a href="https://www.linkedin.com/in/fiona-nicdao221513175luc/">
                       LinkedIn
