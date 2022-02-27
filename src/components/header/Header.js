@@ -14,20 +14,16 @@ export default function Header(){
                 <nav className="col-md-6">
                     <ul>
                         <li>
-                                <NavLink to='/'>About Me</NavLink>
-                            {/* <a href="#About-Me">About Me</a> */}
+                            <NavLink to='/'>About Me</NavLink>
                         </li>
                         <li>
-                                <NavLink to='/work'>Work</NavLink>
-                            {/* <a href="#Work">Work</a> */}
+                            <NavLink to='/work'>Work</NavLink>
                         </li>
                         <li>
-                                <NavLink to='/contact'>Contact Me</NavLink>
-                            {/* <a href="#Contact-Me">Contact Me</a> */}
+                            <NavLink to='/contact'>Contact Me</NavLink>
                         </li>
                         <li>
                             <NavLink to='/resume'>Resume</NavLink>
-                            {/* <a href="#Resume">Resume</a> */}
                         </li>
                     </ul>
                 </nav>
