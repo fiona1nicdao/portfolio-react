@@ -3,6 +3,7 @@ export default function Resume() {
         <div>
             <h1>Resume</h1>
             <h3>Downlaod my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1TqaHmgJwhzWoQlenXV5DLSzH1KAmOZvA/preview">Resume</a> </h3>
+            <h3>Email: fiona.nicdao@northwestern.edu</h3>
             <h2>Front-end Proficiencies</h2>
             <ul>
                 <li>HTML</li>
