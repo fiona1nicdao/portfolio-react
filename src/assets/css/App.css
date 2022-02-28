@@ -1,37 +1,35 @@
 .App {
     /* text-align: center; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  header {
+}
+header {
     padding: 2rem;;
-    background-color: #275bec;
+    background-color: #05266b;
     color: #ffffff;
     display: block;
     justify-content: space-between;
-  }
-  .name {
+}
+.name {
     font-size: 3rem;
-  }
-  nav{
-    justify-content: right;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* min-width: 300px; */
     padding-top: 3rem;
+
+    color: #ffffff;
     /* padding-bottom: 5px;  */
   }
-  
-  header a {
+nav a{
     color:#ffffff;
+    /* box-shadow: 10px 10px 5px grey; */
     padding-left: 2rem;
+    text-decoration: none;
   }
-  header a:hover {
-    color:#45a4f3;
-  }
+
 
   .AboutMe {
     margin: 2rem;
@@ -183,7 +181,7 @@ footer {
 }
 footer a {
     color: #000000;
-    font-size: 2rem;
+    font-size: 3rem;
 
 }
 footer a:hover {
@@ -197,7 +195,9 @@ footer ul {
     top: 50px;
     margin-left: 130px;
     margin-bottom: 4rem;
-
+}
+footer{
+    padding-bottom: 2rem;
 }
 .email{
     font-size: 2rem;
@@ -240,3 +240,7 @@ footer ul {
         width: 100%;
     }
 }
+nav a.active {
+    color: #03f7ff;
+
+  }

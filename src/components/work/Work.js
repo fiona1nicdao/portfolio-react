@@ -6,7 +6,7 @@ import food from '../../assets/images/foodweather.png'
 export default function Work(){
     return(
         <section id="Work"className="Work">
-        <h3 className="Me">Work</h3>
+        <h3 className="Me">Portfolio</h3>
         <div className="workinfo">
                 <div className="bigsample">
                     <div className="container">

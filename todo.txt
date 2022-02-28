@@ -1,8 +1,2 @@
-1) make a contact page 
-    name 
-    email 
-    text box 
-    sumbit form
-    note saying that this page is not functional until end of March 2022 (still learning)
-2) make a resume page 
+
 3) add icons to footer and change footer to be more clean looking 
