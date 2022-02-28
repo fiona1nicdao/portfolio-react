@@ -1,2 +1,2 @@
-
-3) add icons to footer and change footer to be more clean looking 
+1) redo portfolio (work page) 
+2) add contact validations 

@@ -1,0 +1,27 @@
+.resume{
+    padding: 2rem;
+}
+.resume-name{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.resume-section{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+.spacing{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.spacing-left{
+    padding-left: 2rem;
+}
+
+.dot{
+    padding-bottom: 0.5rem;
+    list-style-type: disc;
+}
+a{
+    color: #088488;
+
+}

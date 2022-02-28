@@ -1,5 +1,6 @@
 import './contact.css'
-export default function(){
+
+export default function Contact(){
     return(
         <div className='contact'>
             <h1 className='contact-name'>Contact</h1>
