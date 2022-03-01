@@ -1,16 +1,26 @@
 .App {
     /* text-align: center; */
+    background-image: url(../images/sunrise.png);
+    width: 100%;
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 header {
     padding: 2rem;;
-    background-color: #05266b;
+    /* background-color: #05266b; */
     color: #ffffff;
     display: block;
     justify-content: space-between;
+    
 }
 .name {
     font-size: 3rem;
+    text-decoration: none;
+}
+.name2{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 nav ul {
