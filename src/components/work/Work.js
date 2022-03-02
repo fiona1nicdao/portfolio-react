@@ -6,6 +6,7 @@ import weather from '../../assets/images/weather.png'
 import quiz from '../../assets/images/quiztimer.png'
 import techblog from '../../assets/images/techblogs.png'
 import food from '../../assets/images/foodweather.png'
+
 export default function Work(){
     return(
         <section id="Work"className="Work background">

@@ -1,6 +1,58 @@
 .Work{
     padding: 2rem;
 }
+.cards{
+    position:relative;
+    width:50%;
+    border-radius: 5px;
+    border:4px solid #8f8c89;
+    margin: 2rem;
+}
+
+.image{
+    opacity: 1;
+    display: block;
+    width:100%;
+    height:auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.overlay{
+    transition: 0.5 ease;
+    opacity: 0;
+    position:absolute;
+    top:30%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+.cards:hover .image{
+    opacity: 0.3;
+}
+.cards:hover .overlay{
+    opacity: 1;
+}
+.paddingright{
+    padding-right: 2rem;
+}
+.textCard{
+    /* background-color: #ffffff; */
+    color:#000000;
+    font-size: 2rem;
+    padding: 1rem;
+    /* padding-bottom: 1.5rem; */
+}
+.textCard a{
+    color:#000000;
+}
+.proficiency{
+    /* background-color: #ffffff; */
+    color:#000000;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
 .bigsample{
     text-align: center;
     /* display: flex; */
