@@ -35,6 +35,12 @@ form .form-input {
     border: 1px solid #484848;
     border-radius: 0.3rem;
 }
+.success{
+    color:#008000;
+}
+.error{
+    color:#ff0000;
+}
 .message{
     height: 100px;
 }
