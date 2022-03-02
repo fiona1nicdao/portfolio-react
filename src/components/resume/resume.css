@@ -1,6 +1,10 @@
 .resume{
     padding: 2rem;
 }
+.background{
+    background-color: #ffffff;
+    /* opacity: 0.7; */
+}
 .resume-name{
     font-size: 2rem;
     padding-bottom: 0.5rem;
@@ -8,6 +12,10 @@
 .resume-section{
     padding-left: 1rem;
     font-size: 1.3rem;
+}
+.proficiency{
+    display: flex;
+    justify-content: space-around;
 }
 .spacing{
     padding-bottom: 1rem;

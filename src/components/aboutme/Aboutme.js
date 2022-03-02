@@ -1,8 +1,9 @@
 import '../../assets/css/App.css'
+import './aboutme.css'
 import mepic from '../../assets/images/me.png'
 export default function Aboutme(){
     return(
-        <div>
+        <div className="background">
             <section id="About-Me"className="AboutMe">
             <h3 className="Me">About Me</h3>
             <div className="textpic">
@@ -23,7 +24,7 @@ export default function Aboutme(){
                     <img className="me" src={mepic}/>
                 </div>
             </div>
-        </section>
+            </section>
         </div>
     )
 }

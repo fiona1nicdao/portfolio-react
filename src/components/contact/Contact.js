@@ -2,7 +2,7 @@ import './contact.css'
 
 export default function Contact(){
     return(
-        <div className='contact'>
+        <div className="contact background">
             <h1 className='contact-name'>Contact</h1>
             <form className='form'>
                 <div className='form-group'>

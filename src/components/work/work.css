@@ -1,0 +1,136 @@
+.Work{
+    padding: 2rem;
+}
+.bigsample{
+    text-align: center;
+    /* display: flex; */
+    /* box-shadow: 0 4px 8px 0 #00000033; */
+    transition: 0.3s;
+    /* border:5px solid #deb887; */
+    padding: 0;
+    object-fit:fill;
+}
+.bigtitle{
+    font-size: 4rem;
+    padding-top:3rem;
+    padding-bottom: 1rem;
+}
+.bigphrase{
+    font-size:2rem;
+}
+.lastbigphrase{
+    font-size:2rem;
+    padding-bottom: 2rem;  
+}
+.bigimage{
+    box-shadow: 0 4px 8px 0 #00000033; /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #fad4d4;
+    /* width: 400%;
+    height: 100%; */
+    width:50%;
+    max-width: auto;
+    max-width: auto;
+}
+
+.bigimage:hover{
+    box-shadow: 0 8px 16px 0 #000000;
+}
+
+.container{
+    padding-left:9rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    float: left;
+    width: 30%;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+  
+.row {
+    margin-top: 2rem;
+    
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 #00000033; /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f5eded;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 #000000;
+}
+.titlebox{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+
+}
+.smimage{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 5px;
+ }
+.github{
+    background-color: #daa520;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1728px) {
+    .bigsample{
+        background-color: #f7f0e1;
+        border-radius: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 968px) {
+
+    .box img {
+        width: 50%;
+    }
+    .textpic{
+        display: block;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        /* width: 80%; */
+    }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    .bigsample{
+        background-color: #f7f0e1;
+        border-radius: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,58 @@
+.AboutMe {
+    margin: 2rem;
+    display: block;
+    justify-content: center;
+    /* height: 300px; */
+}
+.Me{
+    font-size: 2rem;
+}
+.textpic{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Paragraph{
+    display: block;
+    margin-top: 5rem;
+    padding: 3rem;
+    /* border: 5px solid black; */
+
+}
+.large{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.textcoder{
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.textme{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+
+}
+.pictureme{
+    padding: 5rem;
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+    /* border: 5px solid black; */
+}
+.me{
+    box-shadow: 10px 10px 5px grey;
+}
+
+@media screen and (max-width: 968px) {
+
+    .box img {
+        width: 50%;
+    }
+    .textpic{
+        display: block;
+    }
+}    

@@ -1,9 +1,14 @@
 .contact{
-    padding: 2rem;
+    padding: 4rem;
+    padding-bottom: 7rem;
 }
 .contact-name{
     font-size: 2rem;
     padding-bottom: 0.5rem;
+}
+.background{
+    background-color: #ffffff;
+    /* opacity: 0.7; */
 }
 form {
     width: 100%;
