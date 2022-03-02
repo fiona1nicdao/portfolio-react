@@ -23,3 +23,5 @@ This is the view on chrome browser.
 
 ## Credit
 Joshua Kuruvilla for help with background image css
+
+codebucks27 for [validation](https://dev.to/codebucks/form-validation-in-reactjs-by-building-reusable-custom-hook-1bg7) help 

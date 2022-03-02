@@ -21,7 +21,7 @@ export default function Aboutme(){
                     </div> 
                 </div>
                 <div className='pictureme'>
-                    <img className="me" src={mepic}/>
+                    <img className="me" alt="Fiona" src={mepic}/>
                 </div>
             </div>
             </section>

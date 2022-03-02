@@ -1,2 +1,1 @@
 1) redo portfolio (work page) 
-2) add contact validations 
