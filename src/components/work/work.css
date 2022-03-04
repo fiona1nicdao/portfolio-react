@@ -1,13 +1,15 @@
 .Work{
     padding: 2rem;
 }
+.manycards{
+    display: flex;
+}
 
 .cards{
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     position:relative;
-    width:50%;
+    width:350px;
     border-radius: 5px;
     border:4px solid #8f8c89;
     margin: 2rem;
@@ -41,11 +43,14 @@
 }
 .textCard{
     color:#000000;
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding: 1rem;
 }
 .textCard a{
     color:#000000;
+}
+.textCard a:hover{
+    color:#00aeff
 }
 .proficiency{
     color:#000000;
