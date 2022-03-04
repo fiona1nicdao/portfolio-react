@@ -12,18 +12,21 @@
 
 .horizons{
     padding-left: 4rem;
-    padding-top: 12rem;
+    /* padding-top: 12rem; */
     padding-bottom: 4rem;
     font-size: 3rem;
     text-align: center;
 }
 .water{
     padding-left: 1rem;
-    padding-top: 10rem;
+    padding-top: 5.6rem;
     font-size: 3rem;
     color:#ffffff;
     text-shadow: 5px 2px 5px grey;
-
+    overflow:hidden;
+    overflow-wrap: normal;
+    /* word-break: break-all; */
+    /* inline-size: min-content; */
 }
 
 header {

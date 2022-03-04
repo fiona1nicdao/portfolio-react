@@ -16,7 +16,6 @@ function App() {
       <Header/>
       
       <Routes>
-        <Route path='/' element={<Home/>}/>
         <Route path='/aboutme'element={<Aboutme/>}/>
         <Route path='/work'element={<Work/>}/>
         <Route path='/contact'element={<Contact/>}/>
@@ -24,6 +23,9 @@ function App() {
       </Routes>
 
       <Footer/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
     </div>
   );
 }
