@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.eb249226.css",
+    "main.js": "/portfolio-react/static/js/main.d88c1e72.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "static/media/sunrise.png": "/portfolio-react/static/media/sunrise.a66c4bbcc4f011db34be.png",
+    "static/media/social.png": "/portfolio-react/static/media/social.9783debdbd564797d7c2.png",
+    "static/media/foodweather.png": "/portfolio-react/static/media/foodweather.750a2f354d256ff0d552.png",
+    "static/media/probros.png": "/portfolio-react/static/media/probros.9722a3b8f673fa4bd942.png",
+    "static/media/weather.png": "/portfolio-react/static/media/weather.252ee684f17c0ad79b11.png",
+    "static/media/quiztimer.png": "/portfolio-react/static/media/quiztimer.304b86da5d7aadb8eb9e.png",
+    "static/media/me.png": "/portfolio-react/static/media/me.2e3200d324be9e3dc32a.png",
+    "static/media/techblogs.png": "/portfolio-react/static/media/techblogs.1cf834db68c7e8cad5b3.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.eb249226.css.map": "/portfolio-react/static/css/main.eb249226.css.map",
+    "main.d88c1e72.js.map": "/portfolio-react/static/js/main.d88c1e72.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb249226.css",
+    "static/js/main.d88c1e72.js"
+  ]
+}
