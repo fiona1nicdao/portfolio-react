@@ -19,7 +19,9 @@ Link to [portfolio webpage]()
 
 ## Webpage Preview 
 This is the view on chrome browser. 
-![FionaNicdao]()
+![homepage](./src/assets/images/homepage.png)
+![aboutme](./src/assets/images/aboutme.png)
+![portfolio](./src/assets/images/portfolio.png)
 
 ## Credit
 Joshua Kuruvilla for help with background image css

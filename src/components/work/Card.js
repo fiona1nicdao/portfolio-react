@@ -6,7 +6,7 @@ import weather from '../../assets/images/weather.png'
 import quiz from '../../assets/images/quiztimer.png'
 import tech from '../../assets/images/techblogs.png'
 import food from '../../assets/images/foodweather.png'
-import social from '../../assets/images/sunrise.png'
+import social from '../../assets/images/social.png'
 
 
 export default function Card(){

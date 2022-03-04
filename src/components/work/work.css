@@ -6,7 +6,6 @@
 }
 
 .cards{
-    /* flex-wrap: wrap; */
     flex-direction: row;
     position:relative;
     width:350px;
