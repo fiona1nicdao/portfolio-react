@@ -15,7 +15,7 @@ The purpose for this project is to have a professional portfolio webpage with wo
 - Contact section must have a name, email, message parts with notification for required fields and valid emails,
 - Resume section must have downloadable resume and list of developer proficienies
 
-Link to [portfolio webpage]()
+Link to [portfolio webpage](https://fiona1nicdao.github.io/portfolio-react/)
 
 ## Webpage Preview 
 This is the view on chrome browser. 
