@@ -13,7 +13,7 @@ function sendEmail(){
     };
     const sendEmail = (e) =>{
         send(
-            'gmail', 'template_FINISH',toSend,'FINISH'
+            'gmail',process.env.TEMPLATE_ID,toSend, process.env.USER_ID
         )
         .then((response)=>{
             console.log('success',response.status, response.text);
