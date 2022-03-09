@@ -12,12 +12,7 @@ export default function Aboutme(){
                         <p className="large">Hello! I am</p>
                         <p className="large">Fiona Nicdao</p>
                         <p className="textcoder">I am a web developer</p>
-                        <p className="textme"> I'm a Chicagoan.I graduated from </p>
-                        <p className="textme">Loyola Univeristy at Chicago with </p>
-                        <p className="textme">a Bachelor Degree in Biology.</p>
-                        <p className="textme">Coding languages that I am </p>
-                        <p className="textme">knowledgeable is HTML, CSS, and </p>
-                        <p className="textme">JavaScript.</p>
+                        <p className="textme">I graduated from Loyola Univeristy at Chicago with a Bachelor Degree in Biology. Leveraging a science background to build a more intuitive user experience. Recently earning a certificate in full-stack development from Northwestern University Coding-Bootcamp, with newly developed skills in JavaScript, React.js, and MySQL. I am known as an innovative problem solver and eager to learn new languages and programs. Lattes is the world's greatest invention and second is computers.</p>
                     </div> 
                 </div>
                 <div className='pictureme'>

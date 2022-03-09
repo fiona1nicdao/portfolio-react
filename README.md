@@ -1,4 +1,7 @@
 # portfolio-react
+
+![License: MIT](<https://img.shields.io/badge/License-MIT-yellow.svg>)
+
 Week 20 React.js
 # Fiona Nicdao Porfolio Webpage
 
@@ -23,6 +26,9 @@ This is the view on chrome browser.
 ![aboutme](./src/assets/images/aboutme.png)
 ![portfolio](./src/assets/images/portfolio.png)
 
+## License 
+  This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 ## Credit
 Joshua Kuruvilla for help with background image css
 
@@ -31,3 +37,9 @@ codebucks27 for [validation](https://dev.to/codebucks/form-validation-in-reactjs
 [w3schools.com](https://www.w3schools.com/howto/howto_css_image_overlay.asp) for help with overlap image cards
 
 Brianna Woodruff and Josshy Olea for help with emailjs.com 
+
+## Questions
+
+ For any further assistance, you may contact me at:
+   * Github: [fiona1nicdao](<https://github.com/fiona1nicdao>)
+
