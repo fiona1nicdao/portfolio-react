@@ -5,7 +5,8 @@ const workdata = [
         app:"https://pro-bono-pals.herokuapp.com/", 
         github:"https://github.com/pro-bono-pals/pro-bono-pals",
         proficiency:"Model View Controller",
-        "img":'../../assets/images/probros.png' 
+        "img":'../../assets/images/probros.png',
+        image:'probros',
     },
     {
         id:2, 
@@ -13,7 +14,8 @@ const workdata = [
         app:"https://fiona1nicdao.github.io/Homework_06/", 
         github:"https://github.com/fiona1nicdao/Homework_06",
         proficiency:"Server Side APIs",
-        "img":'../../assets/images/weather.png' 
+        "img":'../../assets/images/weather.png',
+        image:'weather',
     },
     {
         id:3, 
@@ -21,14 +23,18 @@ const workdata = [
         app:"https://fiona1nicdao.github.io/Homework_04/", 
         github:"https://github.com/fiona1nicdao/Homework_04",
         proficiency:"Web APIs", 
-        "img":'../../assets/images/quiztimer.png' },
+        "img":'../../assets/images/quiztimer.png',
+        image:'quiztimer',
+    },
+        
     {
         id:4, 
         title:"Tech Blogs",
         app:"https://tech-blog-fionanicdao.herokuapp.com/", 
         github:"https://github.com/fiona1nicdao/Tech_Blog_MVC",
         proficiency:"SQL", 
-        "img":'../../assets/images/techblogs.png' 
+        "img":'../../assets/images/techblogs.png',
+        image:'techblogs', 
     },
     {
         id:5, 
@@ -36,7 +42,8 @@ const workdata = [
         app:"https://seasons-of-food.github.io/whats-your-food-temp/", 
         github:"https://github.com/seasons-of-food/whats-your-food-temp",
         proficiency:"Third-Party APIs", 
-        "img":'../../assets/images/foodweather.png' 
+        "img":'../../assets/images/foodweather.png',
+        image:'foodweather',
     },
     {
         id:6, 
@@ -44,7 +51,8 @@ const workdata = [
         app:"", 
         github:"https://github.com/fiona1nicdao/social_network_api",
         proficiency:"MongoDB", 
-        "img":'../../assets/images/sunrise.png' 
+        "img":'../../assets/images/social.png',
+        image:'social',
     },
 
 ]
