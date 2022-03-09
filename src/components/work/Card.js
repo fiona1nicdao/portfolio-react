@@ -1,3 +1,6 @@
+import {useState} from 'react'
+import workData from'../../assets/data/workdata'
+import {NavLink, Outlet} from 'react-router-dom'
 import './work.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
@@ -7,9 +10,21 @@ import quiz from '../../assets/images/quiztimer.png'
 import tech from '../../assets/images/techblogs.png'
 import food from '../../assets/images/foodweather.png'
 import social from '../../assets/images/social.png'
+import workdata from '../../assets/data/workdata'
 
 
 export default function Card(){
+    const [selectedProject, setSelectedProject] = useState()
+
+    const workLinks = workData.map(work => {
+        return (
+            <li key={work.id} onClick={()=> setSelectedProject(work)}>
+                <NavLink to={`/works/${work.id}`}>
+                    {work.title}
+                </NavLink>
+            </li>
+        )
+    })
 
     return(
         <>

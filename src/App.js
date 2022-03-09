@@ -7,8 +7,9 @@ import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
 import Aboutme from './components/aboutme/Aboutme'
 import Contact from './components/contact/Contact'
-import Work from './components/work/Portfolio'
+import Works from './components/work/Portfolios'
 import Resume from './components/resume/Resume'
+import Work from './components/work/Portfolio'
 
 function App() {
   return (
@@ -18,15 +19,14 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/aboutme'element={<Aboutme/>}/>
-        <Route path='/work'element={<Work/>}/>
+        <Route path='/work'element={<Works/>}>
+          <Route path=":id" element={<Work/>}/>
+        </Route>
         <Route path='/contact'element={<Contact/>}/>
         <Route path='/resume'element={<Resume/>}/>
       </Routes>
 
       <Footer/>
-      {/* <Routes>
-        <Route path='/' element={<Home/>}/>
-      </Routes> */}
     </div>
   );
 }
