@@ -1,5 +1,29 @@
 import './contact.css'
 import ValidateForm from '../../hooks/validateForm';
+import {send} from 'emailjs-com'
+
+function sendEmail(){
+    const [toSend, setToSend] = useState({
+        name:'',email:'',message:''
+    });
+    const layout = {}
+    const handleInput = (name, value)=> {
+        setToSend({...toSend, [name]:value});
+        console.log(toSend)
+    };
+    const sendEmail = (e) =>{
+        send(
+            'gmail', 'template_FINISH',toSend,'FINISH'
+        )
+        .then((response)=>{
+            console.log('success',response.status, response.text);
+            window.location.reload(false)
+        })
+        .catch((err)=>{
+            console.log('failed', err)
+        })
+    }
+}
 
 export default function Contact(){
     // final sumbit function
