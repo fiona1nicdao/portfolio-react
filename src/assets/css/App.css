@@ -63,6 +63,10 @@ nav a{
 nav a:hover{
     color: #075391
 }
+.image{
+    height: 10%;
+    width: 10%;
+}
 
 footer {
     margin-left: 15px;
@@ -70,8 +74,6 @@ footer {
     width: 100%;
     text-align: center;
     padding-bottom: 2rem;
-
-
 }
 footer a {
     color: #ffffff;

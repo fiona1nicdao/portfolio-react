@@ -13,7 +13,7 @@ export default function Portfolio(){
     const display = selectedProject ? (
         <section className='Work background'>
             <div className='cards'>
-                    <img className='image' alt={work.title}src={social}/>
+                    <img className='image' alt={work.title}src={work.imageSrc}/>
                     <div className='overlay'>
                         <div className='textCard'>
                             <a className='paddingright' href={work.app}>{work.title}</a>
