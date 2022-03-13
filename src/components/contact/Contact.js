@@ -1,31 +1,28 @@
+import React,  { useRef } from 'react';
 import './contact.css'
 import ValidateForm from '../../hooks/validateForm';
-import {send} from 'emailjs-com'
-
-// function sendEmail(){
-//     const [toSend, setToSend] = useState({
-//         name:'',email:'',message:''
-//     });
-//     const layout = {}
-//     const handleInput = (name, value)=> {
-//         setToSend({...toSend, [name]:value});
-//         console.log(toSend)
-//     };
-//     const sendEmail = (e) =>{
-//         send(
-//             'gmail',process.env.TEMPLATE_ID,toSend, process.env.USER_ID
-//         )
-//         .then((response)=>{
-//             console.log('success',response.status, response.text);
-//             window.location.reload(false)
-//         })
-//         .catch((err)=>{
-//             console.log('failed', err)
-//         })
-//     }
-// }
+import emailjs from '@emailjs/browser';
+// import {send} from 'emailjs-com'
 
 export default function Contact(){
+    const service = process.env.SERVICE
+    const template = process.env.TEMPLATE
+    const user = process.env.USER
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm(service, template, form.current, user)
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+
+        alert("email sent")
+        window.location.reload(false)
+    };
+
     // final sumbit function
     const formSubmit = () =>{
         console.log("callback function when form is submitted!");
@@ -37,10 +34,10 @@ export default function Contact(){
     return(
         <div className="contact background">
             <h1 className='contact-name'>Contact</h1>
-            <form className='form' onSubmit={handleSumbit}>
+            <form className='form' ref={form} onSubmit={sendEmail}>
                 <div className='form-group'>
-                    <label htmlFor="contactname">Name:</label>
-                    <input  className='form-input' minLength='2'type="text"name="contactname" id="name" onChange={handleChange} />
+                    <label htmlFor="name">Name:</label>
+                    <input  className='form-input' minLength='2'type="text"name="name" id="name" onChange={handleChange} />
                     {errors.contactname && <h3 className='red'>{errors.contactname}</h3>}
                 </div>
                 <div className='form-group'>
