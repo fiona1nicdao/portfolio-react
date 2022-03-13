@@ -1,5 +1,3 @@
-import {useState} from 'react'
-
 import './assets/css/reset.css'
 import './assets/css/App.css'
 
@@ -13,13 +11,6 @@ import Works from './components/work/Portfolios'
 import Resume from './components/resume/Resume'
 import Work from './components/work/Portfolio'
 
-// import SunrisePic from './assets/images/sunrise.png'
-// import ProbrosPic from './assets/images/probros.png'
-// import WeatherPic from './assets/images/weather.png'
-// import QuiztimerPic from './assets/images/quiztimer.png'
-// import TechblogsPic from  './assets/images/techblogs.png'
-// import FoodweatherPic from './assets/images/foodweather.png'
-// import SocialPic from './assets/images/social.png'
 
 function App() {
 
