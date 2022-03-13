@@ -1,17 +1,39 @@
 .Work{
     padding: 2rem;
 }
-.manycards{
+.flex-container{
     display: flex;
 }
+.work-nav{
+    width: 30%;
+}
+.work-main{
+    width: 70%;
+}
 
-.cards{
+.nav-cards{
     flex-direction: row;
     position:relative;
-    width:350px;
+    width:750px;
     border-radius: 5px;
     border:4px solid #8f8c89;
     margin: 2rem;
+}
+
+.cards{
+    width:750px;
+    margin: 2rem;
+}
+.nav-image{
+    opacity: 1;
+    display: block;
+    width:50%;
+    height:auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.nav-image:hover{
+    opacity: 0.1;
 }
 
 .image{
@@ -21,28 +43,19 @@
     height:auto;
     transition: 0.5s ease;
     backface-visibility: hidden;
-}
-.overlay{
-    transition: 0.5 ease;
-    opacity: 0;
-    position:absolute;
-    top:30%;
-    left:40%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-.cards:hover .image{
-    opacity: 0.3;
+    border-radius: 10px;
+    border:4px solid #8f8c89;
+
 }
 .cards:hover .overlay{
     opacity: 1;
 }
 .paddingright{
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 .textCard{
     color:#000000;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     padding: 1rem;
 }
 .textCard a{
@@ -51,9 +64,31 @@
 .textCard a:hover{
     color:#00aeff
 }
-.proficiency{
+.work-proficiency{
     color:#000000;
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 1.7rem;
+    padding: 0.5rem;
 } 
+.work-github{
+    font-size: 3rem;
+}
 
+@media screen and (max-width: 1148px) {
+    .flex-container{
+        display: block;
+    }
+    .nav-flex{
+        display: flex; 
+        flex-direction: row;
+    }
+    .nav-cards{
+        width:110px;
+        border-radius: 5px;
+        border:4px solid #8f8c89;
+        margin: 2rem;
+    }
+    .work-main{
+        width: 70%;
+
+    }
+}    

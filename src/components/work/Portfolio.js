@@ -1,8 +1,7 @@
 import './work.css';
-import { useOutletContext, useParams } from 'react-router-dom';
+import { useOutletContext} from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
-import social from '../../assets/images/social.png'
 
 
 export default function Portfolio(){
@@ -16,16 +15,17 @@ export default function Portfolio(){
                     <img className='image' alt={work.title}src={work.imageSrc}/>
                     <div className='overlay'>
                         <div className='textCard'>
-                            <a className='paddingright' href={work.app}>{work.title}</a>
-                            <a href={work.github}>
+                            <a className='paddingright' target="_blank" rel="noopener noreferrer" href={work.app}>{work.title}</a>
+                            <a target="_blank" rel="noopener noreferrer" href={work.github} className='work-github'>
                                 <FontAwesomeIcon icon={faGithub}/>
                             </a>
                         </div>
-                        <p className='proficiency'>{work.proficiency}</p>
+                        <p className='work-proficiency'>{work.proficiency}</p>
+                        <p className='work-proficiency'>{work.description}</p>
                     </div>
-                </div>
+            </div>
         </section>
-    ) : <p>Please Select a Project</p>
+    ) : <h1>Please Select a Project</h1>
 
     return display
 
