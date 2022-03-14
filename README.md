@@ -30,13 +30,13 @@ This is the view on chrome browser.
   This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Credit
-Joshua Kuruvilla for help with background image css
+Joshua Kuruvilla for help with background image css.
 
-codebucks27 for [validation](https://dev.to/codebucks/form-validation-in-reactjs-by-building-reusable-custom-hook-1bg7) help 
+codebucks27 for [validation](https://dev.to/codebucks/form-validation-in-reactjs-by-building-reusable-custom-hook-1bg7) help.
 
-[w3schools.com](https://www.w3schools.com/howto/howto_css_image_overlay.asp) for help with overlap image cards
+[w3schools.com](https://www.w3schools.com/howto/howto_css_image_overlay.asp) for help with overlap image cards.
 
-Brianna Woodruff and Josshy Olea for help with emailjs.com 
+Brianna Woodruff and Josshy Olea for help with emailjs.com
 
 ## Questions
 
