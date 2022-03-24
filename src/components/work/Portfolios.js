@@ -2,7 +2,7 @@ import './work.css'
 import {useState} from 'react'
 import workData from'../../assets/data/workdata'
 import {NavLink, Outlet} from 'react-router-dom'
-import probros from "../../assets/images/probros.png"
+import probros from "../../assets/images/polari.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
 
@@ -26,13 +26,13 @@ export default function Portfolios(){
         <img className='image' alt="ProBonoPals"src={probros}/>
         <div className='overlay'>
             <div className='textCard'>
-                <a className='paddingright' target="_blank" rel="noopener noreferrer" href="https://pro-bono-pals.herokuapp.com/">ProBonoPals</a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pro-bono-pals/pro-bono-pals">
+                <a className='paddingright' target="_blank" rel="noopener noreferrer" href="https://polari-attachments.herokuapp.com/">Polari Dating App</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/polari-2022">
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
             </div>
-            <p className='work-proficiency'>Model View Controller</p>
-            <p className='work-proficiency'>Service to match entry level professionals willing to donate their time with local community members who needs help in their respective fields.</p>
+            <p className='work-proficiency'>REACT.JS</p>
+            <p className='work-proficiency'>Polari is a dating website caterd to the LGBTQ community with an emphasis to educate users of their attachment styles.</p>
 
         </div>
         </div>

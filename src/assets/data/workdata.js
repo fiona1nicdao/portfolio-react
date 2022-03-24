@@ -64,4 +64,4 @@ const workdata = [
     },
 
 ]
-export default workdata;
+export default workdata; 
