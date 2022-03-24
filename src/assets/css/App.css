@@ -28,7 +28,9 @@
     /* word-break: break-all; */
     /* inline-size: min-content; */
 }
-
+.homepage a{
+    text-decoration: none;
+}
 header {
     padding: 2rem;;
     color: #ffffff;

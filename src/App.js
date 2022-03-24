@@ -10,6 +10,7 @@ import Contact from './components/contact/Contact'
 import Works from './components/work/Portfolios'
 import Resume from './components/resume/Resume'
 import Work from './components/work/Portfolio'
+import Progression from './pages/Progression'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         </Route>
         <Route path='/contact'element={<Contact/>}/>
         <Route path='/resume'element={<Resume/>}/>
+        <Route path='/progress'element={<Progression/>}/>
       </Routes>
   
       <Footer/>
