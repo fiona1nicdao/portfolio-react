@@ -1,11 +1,15 @@
 import {useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 import portfoliodata from '../assets/data/portfoliodata'
+import projectdata from '../assets/data/projectdata';
 import OnePortfolio from '../components/progress/OnePortfolio'
+import OneProject from '../components/progress/OneProject'
 
 export default function Progression(){
     const [current,setCurrent] = useState(0)
+    const [pcurrent,setpCurrent] = useState(0)
     let length = portfoliodata.length
+    let plength = projectdata.length 
     let navigate = useNavigate();
 
     function goHome(){
@@ -20,6 +24,12 @@ export default function Progression(){
     function goBackward(){
         setCurrent(current === length -1 ? 0:current -1)
     }
+    function goToPrevious(){
+        setpCurrent(pcurrent === plength -1 ? 0:pcurrent-1)
+    }
+    function goforward(){
+        setpCurrent(pcurrent === plength -1 ? 0: pcurrent+1)
+    }
 
     return(
         <div className='background'>
@@ -33,11 +43,23 @@ export default function Progression(){
                     {portfoliodata.map((portfolio, index)=>{
                         return(
                             // write out data 
-                            <div className={index ===current?'activePortfolio':'hidden'} key={index}>{index === current && (<OnePortfolio portfolio={portfolio}/>)}</div>
+                            <div className={index ===current?'active':'hidden'} key={index}>{index === current && (<OnePortfolio portfolio={portfolio}/>)}</div>
                         )
                     })}
                 </div>
             <div>My progression for my projects </div>
+                    <button onClick={goToPrevious}>previous</button>
+                    <button onClick={goforward}>next</button>
+                    <div>
+                        {projectdata.map((project, index)=>{
+                            return(
+                               <div className={index ===current ?'active':'hidden'} key={index}>
+                                {index === current && (<OneProject project={project}/>)}
+                               </div> 
+                            )
+                            
+                        })}
+                    </div>
             {/* make a caresel of my portfolios and projects have an if else to switch from showing portoflios and projects  */}
         </div>
     )
