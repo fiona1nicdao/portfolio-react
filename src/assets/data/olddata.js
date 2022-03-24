@@ -62,6 +62,15 @@ const workdata = [
         imageSrc: foodweather,
         description:'A website that provides the weather and a corresponding recipe depending on the temperature of the city enter.',
     },
+    {
+        id:7, 
+        title:"Social Network API",
+        app:"", 
+        github:"https://github.com/fiona1nicdao/social_network_api",
+        proficiency:"MongoDB", 
+        imageSrc: social,
+        description:'Backend code - API that uses a MongoDB database for a social network data',
+    },
 
 ]
 export default workdata;
