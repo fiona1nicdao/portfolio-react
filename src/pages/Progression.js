@@ -7,9 +7,13 @@ import OneProject from '../components/progress/OneProject'
 
 export default function Progression(){
     const [current,setCurrent] = useState(0)
+    console.log("current",current)
     const [pcurrent,setpCurrent] = useState(0)
+    console.log("project",pcurrent)
     let length = portfoliodata.length
+    console.log("length", length)
     let plength = projectdata.length 
+    console.log("project length", plength)
     let navigate = useNavigate();
 
     function goHome(){
@@ -53,8 +57,8 @@ export default function Progression(){
                     <div>
                         {projectdata.map((project, index)=>{
                             return(
-                               <div className={index ===current ?'active':'hidden'} key={index}>
-                                {index === current && (<OneProject project={project}/>)}
+                               <div className={index ===pcurrent ?'active':'hidden'} key={index}>
+                                {index === pcurrent && (<OneProject project={project}/>)}
                                </div> 
                             )
                             
