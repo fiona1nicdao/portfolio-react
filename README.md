@@ -38,6 +38,11 @@ codebucks27 for [validation](https://dev.to/codebucks/form-validation-in-reactjs
 
 Brianna Woodruff and Josshy Olea for help with emailjs.com
 
+mongo [image](https://github.com/FortAwesome/Font-Awesome/issues/16179)
+
+mysql [image](https://github.com/FortAwesome/Font-Awesome/issues/8234)
+
+graphQL [image](https://en.wikipedia.org/wiki/GraphQL#/media/File:GraphQL_Logo.svg)
 ## Questions
 
  For any further assistance, you may contact me at:

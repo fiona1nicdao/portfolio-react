@@ -21,7 +21,7 @@ export default function Progression(){
 
     return(
         <div className='background'>
-            <div className='Me'>Hello this is a the secret page about my progess as a web developer</div>
+            <div className='Me'>Hello! Welcome to My Secret Page about My Progess as a Web Developer</div>
 
             <div className='progressPortfolio'>My Progression for my Portfolio</div>
             <div className='buttons'>

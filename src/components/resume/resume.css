@@ -34,3 +34,20 @@ a{
     color: #088488;
 
 }
+.icons{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.sizeImgMongodb{
+    width: 50px;
+    /* padding: 1rem; */
+}
+.sizeImgSQL{
+    width: 110px;
+    /* padding-top: 0.5rem; */
+}
+.sizeImgGraphql{
+    padding-left:0.5rem ;
+    width: 55px;
+    /* color:black; */
+}
