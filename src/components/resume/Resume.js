@@ -9,8 +9,8 @@ export default function Resume() {
             <h1 className="resume-name">Resume</h1>
             <section className="resume-section">
                 {/* I hid my resume and email b/c not looking for jobs  */}
-                <h3 hidden className="spacing">Download my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1O1zMRN-RM3JT4z5RauKPegcdZsTyiDyV/view?usp=sharing">Resume</a> </h3>
-                <h3 hidden className="spacing">Email:fionanicdao8374@gmail.com </h3>
+                <h3 className="spacing">Download my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1O1zMRN-RM3JT4z5RauKPegcdZsTyiDyV/view?usp=sharing">Resume</a> </h3>
+                <h3 className="spacing">Email:fionanicdao8374@gmail.com </h3>
                 <div>
                 <FontAwesomeIcon className="icons" icon={faHtml5}/>
                 <FontAwesomeIcon className="icons" icon={faCss3Alt}/>
